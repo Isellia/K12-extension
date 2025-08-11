@@ -1,0 +1,1054 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body, p, h1, h2, h3, a, span, div,  .header-bar .btn.calendar-button.active, button {
+  font-family: "Poiret One", sans-serif !important;
+}
+
+
+
+
+
+
+body  {
+ 
+    .poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  background: url("https://64.media.tumblr.com/53e89d660eb7ff4c1deb6a295ce3d3aa/89fe05731c135841-41/s640x960/eef69156121955689d0b4ffa5a623973bd56a541.gifv") no-repeat center center fixed !important;
+  background-size: cover !important;
+}
+
+
+
+#header {
+  background-image: url("https://i.imgur.com/H6rwEtz.png") !important;
+  background-size: cover !important;      /* make sure it fills the header */
+  background-position: center center !important; /* center the image */
+  background-repeat: no-repeat !important; /* no tiling */
+  color: white !important;                 /* keep text readable */
+}
+
+
+
+.ic-app-header__menu-list-link {
+  border-radius: 15px; /* round corners */
+  transition: border-radius 0.3s ease;
+}
+
+.ic-app-header__menu-list-link:hover {
+  animation: glowPulse 1.5s ease-in-out infinite alternate;
+  border-radius: 15px; /* keep rounded */
+}
+
+/* Change this to a new animation for the active menu item */
+.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
+  animation: glowShift 3s linear infinite;
+  border-radius: 15px;
+}
+
+/* Your existing glowPulse animation */
+@keyframes glowPulse {
+  from {
+    box-shadow: 0 0 15px 5px #7309c1;
+  }
+  to {
+    box-shadow: 0 0 20px 8px #ff0ece;
+  }
+}
+
+/* New animation for active menu item glow shifting */
+@keyframes glowShift {
+  0% {
+    box-shadow: 0 0 15px 5px #ff00cc;
+  }
+  25% {
+    box-shadow: 0 0 15px 5px #00ccff;
+  }
+  50% {
+    box-shadow: 0 0 15px 5px #00fff2;
+  }
+  75% {
+    box-shadow: 0 0 15px 5px #ffcc00;
+  }
+  100% {
+    box-shadow: 0 0 15px 5px #8e14df;
+  }
+}
+
+.footer-logo.ic-app-footer__logo-link {
+  display: none !important;
+}
+
+.ic-app-footer__links{
+  display: none !important;
+}
+
+#header {
+  border-radius: 20px; /* or whatever roundness you like */
+  border: 2px solid #7b09d0; /* purple border */
+  box-shadow: 0 0 10px 3px #7b09d0; /* purple glow */
+}
+@keyframes purpleGlow {
+  0%, 100% {
+    box-shadow: 0 0 5px 2px #7b09d0;
+  }
+  50% {
+    box-shadow: 0 0 20px 6px #bb5eff;
+  }
+}
+
+#header {
+  border-radius: 20px;
+  border: 2px solid #7b09d0;
+  animation: purpleGlow 2s infinite ease-in-out;
+}
+
+.css-1yhr15r-view--flex-flex {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 3px #7b09d0;
+  overflow: hidden;
+  display: inline-block;
+  animation: purpleGlow 2s infinite ease-in-out alternate;
+  padding: 0 8px;
+  cursor: default;
+}
+
+.css-1yhr15r-view--flex-flex::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  animation: shimmer 3s infinite;
+  pointer-events: none;
+  border-radius: 10px;
+  mix-blend-mode: screen;
+  z-index: 10;
+}
+
+@keyframes purpleGlow {
+  0%, 100% {
+    box-shadow: 0 0 5px 2px #7b09d0;
+  }
+  50% {
+    box-shadow: 0 0 20px 6px #bb5eff;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+a.Button.button-sidebar-wide.element_toggler_inst_focus_ring {
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 0 0 8px 3px #7b09d0;
+  overflow: hidden;
+  display: inline-block;
+  padding: 8px 16px;
+  color: white;
+  text-decoration: none;
+  animation: purpleGlow 2s infinite ease-in-out alternate;
+  cursor: pointer;
+}
+
+a.Button.button-sidebar-wide.element_toggler_inst_focus_ring::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  animation: shimmer 3s infinite;
+  pointer-events: none;
+  border-radius: 12px;
+  mix-blend-mode: screen;
+  z-index: 10;
+}
+
+@keyframes purpleGlow {
+  0%, 100% {
+    box-shadow: 0 0 5px 2px #7b09d0;
+  }
+  50% {
+    box-shadow: 0 0 20px 6px #bb5eff;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.ic-notification__icon {
+  position: relative;
+  display: inline-block;
+  color: #7b09d0; /* base purple color */
+  animation: shimmerGlow 2.5s infinite ease-in-out;
+}
+
+@keyframes shimmerGlow {
+  0%, 100% {
+    text-shadow: 0 0 5px #7b09d0, 0 0 10px #bb5eff, 0 0 20px #7b09d0;
+    filter: drop-shadow(0 0 5px #7b09d0) drop-shadow(0 0 10px #bb5eff);
+  }
+  50% {
+    text-shadow: 0 0 15px #bb5eff, 0 0 30px #bb5eff, 0 0 40px #7b09d0;
+    filter: drop-shadow(0 0 15px #bb5eff) drop-shadow(0 0 30px #bb5eff);
+  }
+}
+
+.ic-notification__icon {
+
+  background-color: #7b09d0; /* purple fallback if image doesn't load */
+     background-image: url('https://i.pinimg.com/736x/79/e1/90/79e19005bc33f80bcda352a5db0d8eb3.jpg');
+  
+}
+
+@keyframes shimmerGlow {
+  0% {
+    box-shadow: 0 0 10px #7b09d0, 0 0 20px #bb5eff;
+  }
+  50% {
+    box-shadow: 0 0 20px #bb5eff, 0 0 30px #d8a7ff;
+  }
+  100% {
+    box-shadow: 0 0 10px #7b09d0, 0 0 20px #bb5eff;
+  }
+}
+
+.ic-notification__content {
+  border: 3px solid #7b09d0;       /* purple border */
+  border-radius: 15px;              /* rounded corners */
+  background-color: rgba(255, 255, 255, .64); /* white with slight transparency */
+  padding: 15px;
+    animation: shimmerGlow 2s infinite ease-in-out;}
+
+
+a[href="/grades"].Button {
+  background-color: rgba(0, 0, 0, .63); /* purple with transparency */
+  border-radius: 10px;
+  backdrop-filter: blur(4px); /* subtle blur */
+  border: 2px solid #bb5eff; /* optional matching border */
+  color: white; /* make text readable */
+  transition: all 0.3s ease;
+}
+
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 15px rgba(128, 0, 255, 0.7), 0 0 30px rgba(128, 0, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(128, 0, 255, 1), 0 0 50px rgba(128, 0, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(128, 0, 255, 0.7), 0 0 30px rgba(128, 0, 255, 0.5);
+  }
+}
+
+.ic-Dashboard-header__actions button {
+  background: rgba(89, 61, 116, .2) !important;
+  border-radius: 8px;
+  border: none !important;
+  animation: glowPulse 2s infinite ease-in-out;
+}
+
+/* Outer menu container glow */
+.css-1bi6vcd-menu {
+  position: relative;
+  border-radius: 12px;
+  padding: 12px;
+  background-color: rgba(30, 10, 60, .48);
+  box-shadow: 0 0 10px 3px #7b09d0;
+  animation: glowPulse 3s infinite ease-in-out alternate;
+  z-index: 100;
+}
+
+/* Shimmer overlay on the whole menu */
+.css-1bi6vcd-menu::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  pointer-events: none;
+  background: linear-gradient(
+    60deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  animation: shimmer 4s infinite;
+  border-radius: 12px;
+  mix-blend-mode: screen;
+  z-index: 101;
+}
+
+/* Glow for each menu item group section */
+.css-1j6dkk2-menuItemGroup {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 3px #bb5eff;
+  animation: glowShift 4s infinite ease-in-out alternate;
+  background-color: rgba(60, 30, 90, .58);
+  z-index: 10;
+}
+
+/* The separator can have a subtle glowing line */
+.css-ktc9kg-menuItemSeparator {
+  height: 2px;
+  margin: 10px 0 20px;
+  background: linear-gradient(
+    to right,
+    #7b09d0,
+    #bb5eff,
+    #7b09d0
+  );
+  box-shadow: 0 0 8px 1px #bb5eff;
+  border-radius: 2px;
+}
+
+/* Animations */
+
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 8px 2px #7b09d0, 0 0 18px 6px #bb5eff;
+  }
+  50% {
+    box-shadow: 0 0 20px 5px #bb5eff, 0 0 30px 10px #d8a7ff;
+  }
+}
+
+@keyframes glowShift {
+  0% {
+    box-shadow: 0 0 10px 3px #ff00cc;
+  }
+  25% {
+    box-shadow: 0 0 10px 3px #00ccff;
+  }
+  50% {
+    box-shadow: 0 0 10px 3px #00fff2;
+  }
+  75% {
+    box-shadow: 0 0 10px 3px #ffcc00;
+  }
+  100% {
+    box-shadow: 0 0 10px 3px #8e14df;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes rainbowGlow {
+  0% {
+    box-shadow: 0 0 12px 4px red;
+    border-color: red;
+  }
+  16% {
+    box-shadow: 0 0 12px 4px orange;
+    border-color: orange;
+  }
+  33% {
+    box-shadow: 0 0 12px 4px yellow;
+    border-color: yellow;
+  }
+  50% {
+    box-shadow: 0 0 12px 4px green;
+    border-color: green;
+  }
+  66% {
+    box-shadow: 0 0 12px 4px blue;
+    border-color: blue;
+  }
+  83% {
+    box-shadow: 0 0 12px 4px indigo;
+    border-color: indigo;
+  }
+  100% {
+    box-shadow: 0 0 12px 4px violet;
+    border-color: violet;
+  }
+}
+
+.css-6e0igg-menuItem:hover {
+  animation: rainbowGlow 8s ease-in-out infinite;
+  border: 2px solid transparent;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1); /* subtle background so glow stands out */
+  transition: background-color 0.5s ease;
+}
+
+.css-zvg8k4-closeButton button {
+  background-color: transparent; /* Keep existing background */
+  border: none; /* If needed */
+  box-shadow: 0 0 10px #a64aff, 0 0 20px #a64aff, 0 0 40px #a64aff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.css-zvg8k4-closeButton button:hover {
+  box-shadow: 0 0 20px #c27fff, 0 0 40px #c27fff, 0 0 60px #4008c0;
+}
+
+a.css-647bmv-view-link {
+  color: #c27fff !important;
+    text-shadow: 0 0 8px #c27fff, 0 0 15px #c27fff !important;}
+
+a.css-647bmv-view-link:hover {
+  color: #c27fff !important;
+  text-shadow: 0 0 8px #c27fff, 0 0 15px #c27fff !important;
+}
+
+h2.css-1sfltop-view-heading {
+  color: #a64aff !important;
+  text-shadow: 0 0 5px #a64aff, 0 0 10px #a64aff !important;
+}
+
+h2.css-1sfltop-view-heading:hover {
+  color: #c27fff !important;
+  text-shadow: 0 0 8px #c27fff, 0 0 15px #c27fff !important;
+}
+
+
+/* Glow for the "Courses" heading */
+.css-1sfltop-view-heading {
+  color: #ffa6d1;
+  text-shadow: 0 0 5px #a64aff, 0 0 10px #a64aff, 0 0 20px #c28dff;
+}
+
+/* Glow for the "All Courses" link */
+.css-647bmv-view-link {
+  color: #d7b6fc !important;
+  text-shadow: 0 0 5px #a64aff, 0 0 10px #a64aff, 0 0 20px #c28dff;
+}
+
+/* Glow for the welcome message */
+.css-1jyml41-text {
+  color: #c28dff;
+  text-shadow: 0 0 5px #a64aff, 0 0 10px #a64aff, 0 0 20px #c28dff;
+}
+
+.fc-day-number {
+  color: #a64aff; /* purple text */
+  text-shadow:
+    0 0 5px #a64aff,    /* small glow */
+    0 0 10px #c28dff,   /* medium glow */
+    0 0 15px #a64aff;   /* bigger glow */
+}
+
+#group_user_274210000000065668_checkbox_label {
+  color: #c04cc8;
+  text-shadow:
+    0 0 5px #c7c80e,
+    0 0 10px #c28dff,
+    0 0 15px #a64aff;
+}
+
+.context-list-toggle-box.group_user_274210000000065668:hover {
+  box-shadow: 0 0 12px #a64aff;
+  cursor: pointer;
+}
+
+.context-list-toggle-box.group_user_274210000000065668 {
+  background-color: #d31a83; /* Purple background */
+  border: 2px solid #c28dff; /* Purple border */
+  box-shadow: 0 0 8px #a64aff; /* Purple glow */
+  width: 20px; /* Adjust size if needed */
+  height: 20px;
+  display: inline-block;
+  border-radius: 3px; /* Rounded corners if you want */
+}
+
+.Button.Button--icon-action.ContextList__MoreBtn {
+  color: #a64aff; /* Purple color */
+  /* To add glow: */
+  text-shadow: 0 0 8px #a64aff;
+}
+.Button.Button--icon-action.ContextList__MoreBtn i.icon-more {
+  color: #a64aff; /* Purple icon color */
+  filter: drop-shadow(0 0 5px #a64aff);
+}
+
+.header-bar {
+  background-color: rgba(0, 0, 0, .63); /* translucent purple bg */
+  border-radius: 12px;  /* rounded corners */
+  padding: 16px 24px;   /* bigger padding */
+  font-size: 1.1rem;    /* slightly bigger text */
+  box-shadow: 0 0 12px 3px rgba(128, 0, 128, 0.7); /* purple glow */
+  position: relative;
+  overflow: hidden;
+  color: #9b59b6; /* purple text */
+  transition: box-shadow 0.3s ease;
+}
+
+/* Optional shimmer animation for text */
+.header-bar h2.navigation_title,
+.header-bar .btn,
+.header-bar .icon-arrow-left,
+.header-bar .icon-arrow-right,
+.header-bar .icon-plus {
+  animation: shimmer 2.5s infinite linear;
+  color: #0e0d124d;
+  text-shadow: 0 0 6px #b19cd9;
+}
+
+@keyframes shimmer {
+  0%, 100% {
+    text-shadow: 0 0 6px #b19cd9;
+    color: #b19cd9;
+  }
+  50% {
+    text-shadow: 0 0 15px #d8b7ff;
+    color: #d8b7ff;
+  }
+}
+
+
+
+
+/* Slightly bigger buttons with rounded corners */
+.header-bar .btn {
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Make icons glow as well */
+.header-bar i.icon-arrow-left,
+.header-bar i.icon-arrow-right,
+.header-bar i.icon-plus {
+  filter: drop-shadow(0 0 8px #e957ed);
+  vertical-align: middle;
+}
+
+/* On hover, intensify glow */
+.header-bar .btn:hover,
+.header-bar h2.navigation_title:hover {
+  box-shadow: 0 0 18px 6px rgba(198, 78, 227, .9);
+  color: #8c66ba;
+  filter: drop-shadow(0 0 20px #d8b7ff);
+}
+
+.header-bar .btn.calendar-button.active  {
+  animation: rainbow-shimmer 3s infinite linear;
+  background-color: rgba(255, 0, 77, 0.15); /* light red-ish bg as example */
+  box-shadow: 0 0 12px 3px rgba(255, 0, 77, 0.7);
+  color: currentColor;
+}
+
+.fc-day-header span {
+  color: #ffffff; /* pure white */
+  text-shadow:
+    0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #dddddd,
+    0 0 40px #bbbbbb,
+    0 0 80px #eeeeee;
+  animation: shimmerTextGlowWhite 2.5s infinite ease-in-out;
+}
+
+@keyframes shimmerTextGlowWhite {
+  0%, 100% {
+    text-shadow:
+      0 0 5px #ffffff,
+      0 0 10px #ffffff,
+      0 0 20px #dddddd,
+      0 0 40px #bbbbbb,
+      0 0 80px #eeeeee;
+  }
+  50% {
+    text-shadow:
+      0 0 10px #eeeeee,
+      0 0 15px #eeeeee,
+      0 0 25px #cccccc,
+      0 0 45px #ffffff,
+      0 0 90px #bbbbbb;
+  }
+}
+
+.fc-axis span {
+  color: #ffffff; /* pure white */
+  text-shadow:
+    0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #dddddd,
+    0 0 40px #bbbbbb,
+    0 0 80px #eeeeee;
+  animation: shimmerTextGlowWhite 2.5s infinite ease-in-out;
+}
+
+@keyframes shimmerTextGlowWhite {
+  0%, 100% {
+    text-shadow:
+      0 0 5px #ffffff,
+      0 0 10px #ffffff,
+      0 0 20px #dddddd,
+      0 0 40px #bbbbbb,
+      0 0 80px #eeeeee;
+  }
+  50% {
+    text-shadow:
+      0 0 10px #eeeeee,
+      0 0 15px #eeeeee,
+      0 0 25px #cccccc,
+      0 0 45px #ffffff,
+      0 0 90px #bbbbbb;
+  }
+}
+
+.fc-divider.fc-widget-header {
+  border: none;
+  height: 1.5px;
+  border-radius: 3px;
+  background: #ff69b4; /* hot pink */
+  box-shadow:
+    0 0 8px #ff69b4,
+    0 0 15px #ff69b4,
+    0 0 20px #ff69b4;
+}
+
+.context_list_context {
+  position: relative; /* ensure box-shadow respects box */
+
+  padding: 8px;       /* optional: give some inner space */
+  background-color: rgba(30, 10, 60, 0.7); /* dark transparent bg to highlight glow */
+  box-shadow: 0 0 8px 2px #7b09d0; /* initial purple glow */
+  animation: purpleGlow 3s infinite ease-in-out alternate;
+  transition: box-shadow 0.3s ease;
+}
+
+@keyframes purpleGlow {
+  0%, 100% {
+    box-shadow: 0 0 5px 2px #7b09d0, 0 0 15px 5px #bb5eff;
+  }
+  50% {
+    box-shadow: 0 0 15px 5px #bb5eff, 0 0 25px 10px #d8a7ff;
+  }
+}
+
+#other-calendars-list-holder {
+  position: relative; /* needed for the glow */
+  border-radius: 12px; /* soften edges */
+  padding: 16px;       /* some spacing */
+  background-color: rgba(30, 10, 60, 0.8); /* dark purple translucent bg */
+  box-shadow: 0 0 12px 4px #7b09d0; /* purple glow */
+  animation: purpleGlow 3s infinite ease-in-out alternate;
+}
+
+@keyframes purpleGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px 3px #7b09d0;
+  }
+  50% {
+    box-shadow: 0 0 25px 8px #bb5eff;
+  }
+}
+/* Glow on the whole calendar list container */
+#calendar-list-holder {
+  border-radius: 12px;
+  padding: 10px;
+  background-color: rgba(123, 9, 208, 0.15); /* light translucent purple */
+  box-shadow: 0 0 10px 3px #7b09d0;
+  animation: purpleGlow 3s infinite ease-in-out alternate;
+  transition: box-shadow 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+/* Purple glow animation */
+@keyframes purpleGlow {
+  0%, 100% {
+    box-shadow: 0 0 8px 3px #7b09d0;
+  }
+  50% {
+    box-shadow: 0 0 18px 8px #bb5eff;
+  }
+}
+
+/* Glow on the toggle button text */
+#calendar-toggle-button {
+  color: #bb5eff;
+  text-shadow:
+    0 0 6px #7b09d0,
+    0 0 12px #bb5eff,
+    0 0 20px #d8a7ff;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Icon inside toggle button also glows */
+#calendar-toggle-button i.icon-mini-arrow-down {
+  filter: drop-shadow(0 0 5px #bb5eff);
+  transition: filter 0.3s ease;
+}
+
+/* Intensify icon glow on hover */
+#calendar-toggle-button:hover i.icon-mini-arrow-down {
+  filter: drop-shadow(0 0 12px #d8a7ff);
+}
+
+/* Optional: Add subtle glow on the checked calendar list item */
+.context_list_context.checked {
+  border-radius: 8px;
+  background-color: rgba(29, 28, 30, .66);
+  box-shadow: 0 0 10px 3px #7b09d0;
+  animation: purpleGlow 3s infinite ease-in-out alternate;
+  padding: 8px 12px;
+  transition: box-shadow 0.3s ease;
+}
+
+@keyframes pinkGlow {
+  0% { box-shadow: 0 0 10px #ff7ad9, 0 0 20px #ff7ad9; }
+  50% { box-shadow: 0 0 20px #ff7ad9, 0 0 40px #ff7ad9; }
+  100% { box-shadow: 0 0 10px #ff7ad9, 0 0 20px #ff7ad9; }
+}
+
+.fc.fc-unthemed.fc-ltr {
+  animation: pinkGlow 1.5s infinite;
+}
+
+.fc.fc-unthemed.fc-ltr {
+  background-color: rgba(0, 0, 0, .45) !important;
+}
+
+#other-calendars-toggle-button {
+  color: #9b59b6; /* Purple text */
+  text-shadow: 
+    0 0 5px #9b59b6,
+    0 0 10px #9b59b6,
+    0 0 15px #8e44ad,
+    0 0 20px #8e44ad,
+    0 0 30px #9b59b6;
+  cursor: pointer;
+}
+
+
+/* Optional: stronger glow on hover */
+.icon-mini-arrow-right:hover {
+  text-shadow:
+    0 0 8px #ff69b4,
+    0 0 15px #ff69b4,
+    0 0 25px #ff69b4,
+    0 0 35px #ff69b4;
+}
+
+#undated-events-section span.element_toggler {
+  color: #ff69b4; /* pink text */
+  text-shadow:
+    0 0 5px #ff69b4,
+    0 0 10px #ff69b4,
+    0 0 15px #ff69b4,
+    0 0 20px #ff69b4;
+  transition: text-shadow 0.3s ease;
+}
+
+#undated-events-section span.element_toggler:hover {
+  text-shadow:
+    0 0 8px #ff69b4,
+    0 0 15px #ff69b4,
+    0 0 25px #ff69b4,
+    0 0 35px #ff69b4;
+}
+
+#calendar-feed .dialog_opener.Button.Button--link {
+  color: #ff69b4; /* pink text */
+  text-shadow:
+    0 0 5px #ff69b4,
+    0 0 10px #ff69b4,
+    0 0 15px #ff69b4;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: text-shadow 0.3s ease;
+}
+
+#calendar-feed .dialog_opener.Button.Button--link:hover,
+#calendar-feed .dialog_opener.Button.Button--link:focus {
+  text-shadow:
+    0 0 8px #ff69b4,
+    0 0 15px #ff69b4,
+    0 0 25px #ff69b4,
+    0 0 35px #ff69b4;
+  outline: none;
+}
+
+a.Button.button-sidebar-wide.element_toggler_inst_focus_ring {
+  color: #9b59b6; /* pink text */
+  text-shadow:
+    0 0 5px #ff69b4,
+    0 0 10px #ff69b4,
+    0 0 15px #ff69b4;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: text-shadow 0.3s ease;
+  display: inline-block; /* so padding/margin works nicely */
+  padding: 6px 12px; /* optional for nicer clickable area */
+  border-radius: 6px; /* optional rounded edges */
+}
+
+a.Button.button-sidebar-wide.element_toggler_inst_focus_ring:hover,
+a.Button.button-sidebar-wide.element_toggler_inst_focus_ring:focus {
+  text-shadow:
+    0 0 8px #ff69b4,
+    0 0 15px #ff69b4,
+    0 0 25px #ff69b4,
+    0 0 35px #ff69b4;
+  outline: none;
+}
+
+.hidden-phone {
+  color: #9b59b6; /* pink */
+  text-shadow:
+    0 0 5px #b500ff,
+    0 0 10px #ff69b4,
+    0 0 15px #ff69b4;
+  transition: text-shadow 0.3s ease;
+}
+
+span[tabindex="-1"] {
+  color: #9b59b6; /* pink text */
+
+  padding: 4px 10px;
+  text-shadow:
+    0 0 5px #ff69b4,
+    0 0 10px #ff69b4,
+    0 0 15px #ff69b4;
+
+  transition: text-shadow 0.3s ease;
+}
+
+span[tabindex="-1"]:hover,
+span[tabindex="-1"]:focus {
+  text-shadow:
+    0 0 8px #ff69b4,
+    0 0 15px #ff69b4,
+    0 0 25px #ff69b4;
+  outline: none;
+  cursor: pointer;
+}
+
+h2 {
+  color: #9b59b6; /* or any color you prefer */
+  text-shadow: 0 0 8px #ff69b4, 0 0 15px #ff69b4; /* pink glow */
+}
+
+.navigation-tray-container.courses-tray {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px; /* round edges */
+  background: url('https://i.imgur.com/m3OBwOq.png') center/cover no-repeat;
+  color: white; /* for better text contrast */
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.6); /* subtle pink glow */
+
+  /* shimmer overlay */
+  background-image:
+    url('https://i.imgur.com/m3OBwOq.png'),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.3) 50%,
+      rgba(255, 255, 255, 0.1) 100%
+    );
+  background-repeat: no-repeat;
+  background-size: cover, 200% 100%;
+  animation: shimmer 3s infinite;
+    
+}
+
+/* shimmer animation */
+@keyframes shimmer {
+  0% {
+    background-position: left center, -100% 0;
+  }
+  100% {
+    background-position: left center, 200% 0;
+  }
+}
+
+.history-tray {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px; /* round edges */
+  background: url('https://i.imgur.com/m3OBwOq.png') center/cover no-repeat;
+  color: white; /* for better text contrast */
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.6); /* subtle pink glow */
+  background-repeat: no-repeat;
+  background-size: cover, 200% 100%;
+  animation: shimmer 3s infinite;
+    
+}
+
+.css-i1rnqy-text{ color: #d98ff8; /* pink text */
+
+  padding: 4px 10px;
+  text-shadow:
+    0 0 5px #ff69b4,
+    0 0 10px #ff69b4,
+    0 0 15px #ff69b4;
+
+  transition: text-shadow 0.3s ease;
+}
+
+.css-1g6s3n9-text{color: #d98ff8; /* pink text */
+
+  padding: 4px 10px;
+  text-shadow:
+    0 0 5px #ff69b4,
+    0 0 10px #ff69b4,
+    0 0 15px #ff69b4;
+
+  transition: text-shadow 0.3s ease;
+}
+
+/* Wrapper div to hold the glow effect */
+.wrapper-glow {
+  display: inline-block; /* keeps size tight around content */
+  border-radius: 3px;
+  animation: pulse-glow 2.5s infinite ease-in-out;
+}
+
+/* Your original container inside the wrapper */
+.css-vczgqk-view--inlineBlock {
+  position: relative;
+  overflow: hidden; /* keeps content clipping */
+  border-radius: 3px;
+  background: #1e0c1f87;
+}
+
+/* Glow pulse animation */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 10px 3px rgba(128, 0, 128, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px 7px rgba(128, 0, 128, 0.9);
+  }
+}
+
+
+.css-os2fxi-view {  border: none;}
+
+.fc-unthemed th, .fc-unthemed td, .fc-unthemed thead, .fc-unthemed tbody, .fc-unthemed .fc-divider, .fc-unthemed .fc-row, .fc-unthemed .fc-content, .fc-unthemed .fc-popover, .fc-unthemed .fc-list-view, .fc-unthemed .fc-list-heading td {
+    border-color: #8e0b8a;
+    background: #1e0c1f87;
+    
+}
+
+
+
+/* Rainbow glow animation for today's cell */
+@keyframes rainbow-glow {
+  0% {
+    box-shadow: 0 0 8px 2px #ff00ff;
+    border-color: #ff00ff;
+  }
+  16% {
+    box-shadow: 0 0 8px 2px #ff0000;
+    border-color: #ff0000;
+  }
+  33% {
+    box-shadow: 0 0 8px 2px #ff7f00;
+    border-color: #ff7f00;
+  }
+  50% {
+    box-shadow: 0 0 8px 2px #ffff00;
+    border-color: #ffff00;
+  }
+  66% {
+    box-shadow: 0 0 8px 2px #00ff00;
+    border-color: #00ff00;
+  }
+  83% {
+    box-shadow: 0 0 8px 2px #0000ff;
+    border-color: #0000ff;
+  }
+  100% {
+    box-shadow: 0 0 8px 2px #8b00ff;
+    border-color: #8b00ff;
+  }
+}
+
+/* Style for today cell */
+.fc-day.fc-today {
+  position: relative;
+  border: 2px solid #ffa4ff; /* fallback pink border */
+  animation: rainbow-glow 4s linear infinite;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.15) !important; /* subtle translucent bg for contrast */
+  z-index: 5;
+  color: white; /* or whatever text color you want for contrast */
+}
+
+
+.agendaView--no-assignments  {
+  background-color: rgba(0, 0, 0, 0.6) !important; /* transparent black */
+  color: #ff69b4 !important; /* pink text */
+  padding: 8px 12px !important;
+  border-radius: 8px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  display: inline-block !important;
+
+  /* Pink glowing text */
+  text-shadow:
+    0 0 5px #ff69b4,
+    0 0 10px #ff69b4,
+    0 0 20px #ff69b4,
+    0 0 30px #ff1493,
+    0 0 40px #ff1493 !important;
+}
+
+.agenda-wrapper {
+    background: none;
+    display: none;
+}
+
+.PlannerEmptyState-styles__root {
+
+    color: #334451;
+    background: #00000057;
+     border-radius: 16px; /* round edges */
+    box-shadow: 0 0 8px 3px #7b09d0;
+
+  
+  animation: purpleGlow 2s infinite ease-in-out alternate;
+  padding: 0 8px;
+   
+}
