@@ -667,8 +667,8 @@ h2.css-1sfltop-view-heading:hover {
   border-radius: 12px; /* soften edges */
   padding: 16px;       /* some spacing */
   background-color: rgba(30, 10, 60, 0.8); /* dark purple translucent bg */
-  box-shadow: 0 0 12px 4px #7b09d0; /* purple glow */
-  animation: purpleGlow 3s infinite ease-in-out alternate;
+ box-shadow: 0 0 15px 3px #9c16ff;
+   box-shadow: 0 0 25px 8px #bb5eff;
 }
 
 @keyframes purpleGlow {
@@ -684,9 +684,8 @@ h2.css-1sfltop-view-heading:hover {
   border-radius: 12px;
   padding: 10px;
   background-color: rgba(123, 9, 208, 0.15); /* light translucent purple */
-  box-shadow: 0 0 10px 3px #7b09d0;
-  animation: purpleGlow 3s infinite ease-in-out alternate;
-  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0 15px 3px #9c16ff;
+   box-shadow: 0 0 25px 8px #bb5eff;
   position: relative;
   z-index: 1;
 }
@@ -1045,10 +1044,171 @@ h2 {
     color: #334451;
     background: #00000057;
      border-radius: 16px; /* round edges */
-    box-shadow: 0 0 8px 3px #7b09d0;
+    box-shadow: 0 0 9px 4px #7b09d0;
 
-  
-  animation: purpleGlow 2s infinite ease-in-out alternate;
+ 
   padding: 0 8px;
    
 }
+
+.css-10oh2zx-view--block-contextView__content  {color: #334451;
+    background: #00000094;
+     border-radius: 16px; /* round edges */
+    box-shadow: 0 0 8px 3px #e02bad;
+ padding: 0 8px;}
+
+.css-46uy4n-view-tabs__container {   background: none;} /*notif menu deets*/
+
+.css-qns42q-view-panel__content { background: none;}
+
+.css-tgjh9b-view-tab::after {background-color:#ca84e2;
+border-radius: 16px; /* round edges */
+    box-shadow: 0 0 8px 3px #e02b52;}
+
+.css-46uy4n-view-tabs__container{  text-shadow:
+    0 0 5px #ff69b4,
+    0 0 10px #ff69b4,
+    0 0 15px #ff69b4;
+}
+
+.PlannerEmptyState-styles__subtitle{  text-shadow:
+    0 0 5px #ff69b4,
+    0 0 10px #ff69b4,
+    0 0 15px #ff69b4;
+}
+
+.css-1kdtqv3-tray__content{ background: url('https://i.imgur.com/5eFsRy4.png') center/cover no-repeat;}
+
+.css-g5lcut-text{color: #ec8cbc !important;
+ text-shadow:
+    0 0 5px #ff69b4,
+    0 0 10px #ff69b4,
+    0 0 20px #ff69b4,
+    0 0 30px #ff1493,
+    0 0 40px #ff1493 !important;}
+
+.css-1dhs8f-view--inlineBlock-baseButton{ background: #4b132a57;
+     border-radius: 10px; /* round edges */
+    box-shadow: 0 0 9px 4px #7b09d0;}
+
+.UpdateItemTray-styles__root{ background: #00000017;
+ transform: translateY(25px);}
+
+.css-2oxwa1-textInput__facade{
+    background: #00000094;
+     border-radius: 10px; /* round edges */
+    box-shadow: 0 0 8px 3px #cb69ff;
+ padding: 0 8px;
+color:#c42a67}
+
+/*menu icon coloring*/
+
+.ic-app-header__menu-list-link .ic-icon-svg  {
+    fill:#dfb0c3;
+}
+
+:root {
+  --ic-brand-global-nav-avatar-border: #d596f2; /* bright pink */
+}
+
+.course-list-table-row {background: #00000094;
+     border-radius: 14px; /* round edges */
+    box-shadow: 0 0 8px 3px #cb69ff;
+ padding: 0 8px;
+}
+
+.course-list-course-title-column{color: #ec8cbc !important;
+ text-shadow:
+    0 0 5px #ff69b4,
+    0 0 10px #ff69b4,
+    0 0 20px #ff69b4,
+    0 0 30px #ff1493,
+    0 0 40px #ff1493 !important;}
+
+.course-list-no-left-border  {
+ text-shadow:
+    0 0 5px #ff1289,
+    0 0 10px #ff69b4,
+    0 0 20px #ff69b4,
+    0 0 30px #e014ff,
+    0 0 40px #7c0a9a !important;}
+       
+.course-list-table-row.course-list-unpublished-course-row:hover {
+    background-color: #72123878; /* pastel pink background */
+    transform: translateY(-2px); /* gentle lift */
+    border-radius: 14px; /* round edges */
+    box-shadow: 0 0 8px 3px #cb69ff;
+ padding: 0 8px;
+  }
+
+.header-bar{ text-shadow:
+    0 0 5px #ff1289,
+    0 0 10px #ff69b4,
+    0 0 20px #ff69b4,
+    0 0 30px #e014ff,
+    0 0 40px #7c0a9a !important;}
+
+.css-l2071z-formFieldLayout__label {text-shadow:
+    0 0 5px #ff1289,
+    0 0 10px #ff69b4,
+    0 0 20px #ff69b4,
+    0 0 30px #e014ff,
+    0 0 40px #7c0a9a !important;}
+
+.btn, .Button, .ui-button {background-color: #f952a342; 
+border-color: #d64fff}
+
+.ui-tabs .ui-tabs-panel{background: #00000094;
+   border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+    box-shadow: 0 0 8px 3px #cb69ff;
+ padding: 0 8px;}
+
+.ui-tabs .ui-tabs-nav{border-bottom-color:#ffbbc7}
+
+.group_user_274210000000065668 {background-color:#f952a333;
+border-color: #d64fff;}
+
+.ui-dialog .ui-dialog-titlebar.ui-widget-header{border-bottom: 1px solid #ff60bf;}
+
+
+.css-flph13-textInput::placeholder {
+  font-family: 'Poiret One', cursive;
+  color: #fb9dff; /* optional */
+}
+
+.ic-DashboardCard__header_image{background: url("https://64.media.tumblr.com/0b33f00e337e2bd06bd5d46965426f6f/c8e3ed2e2e12df79-a0/s400x600/70819900ef383e153054526d67c7aca489a6bf13.gifv") no-repeat center center fixed !important;
+  background-size: cover !important;
+background-color: #fff0;}
+
+.ic-DashboardCard{background-color: #44127254; /* pastel pink background */
+    border-radius: 14px; /* round edges */
+    box-shadow: 0 0 8px 3px #cb69ff;}
+
+.ic-DashboardCard__header_content{background-color: #44127254; /* pastel pink background */
+}
+
+.ic-DashboardCard:hover {
+  box-shadow: 0 0 15px #f07, 0 0 30px #de62ee;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  transform: scale(1.02);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.Button.Button--icon-action-rev.ic-DashboardCard__header-button:hover {
+  animation: glowPulse 1s infinite alternate;
+  border-radius: 50%;
+}
+
+@keyframes glowPulse {
+  from {
+    box-shadow: 0 0 8px #ff00ff, 0 0 16px #ff00ff;
+  }
+  to {
+    box-shadow: 0 0 16px #ff00ff, 0 0 32px #ff00ff;
+  }
+}
+
+
